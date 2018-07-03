@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiveChess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FiveChess.res" /d "_DEBUG" /d "_AFXDLL" "F:\VISUAL C++程序设计与应用教程题解与课程设计实例\课程设计\源码\FiveChess\FiveChess.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FiveChess.pdb" /debug /machine:I386 /out:"Debug/FiveChess.exe" /pdbtype:sept 
+".\Debug\FiveChess.obj"
+".\Debug\FiveChessDoc.obj"
+".\Debug\FiveChessView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\SetupDlg.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FiveChess.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+FiveChess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
