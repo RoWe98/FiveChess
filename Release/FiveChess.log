@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/7/3 18:39:17。
+     1>项目“F:\c++ code\FiveChess\FiveChess.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\FiveChess.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>F:\visual studio\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 F:\visual studio\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         F:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\FiveChess.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FiveChess.cpp FiveChessDoc.cpp FiveChessView.cpp MainFrm.cpp SetupDlg.cpp Splash.cpp
+         FiveChess.cpp
+     1>FiveChess.cpp(76): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 F:\visual studio\VC\atlmfc\include\afxwin.h(5181) : 参见“CWinApp::Enable3dControlsStatic”的声明
+         FiveChessDoc.cpp
+         FiveChessView.cpp
+         MainFrm.cpp
+         SetupDlg.cpp
+         Splash.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0804" /nologo /fo".\Release\FiveChess.res" FiveChess.rc 
+       Link:
+         F:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\FiveChess.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"F:\visual studio\VC\Include\Manifest\dpiaware.manifest" /PDB:".\Release\FiveChess.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\FiveChess.lib" /MACHINE:X86 /SAFESEH .\Release\FiveChess.res
+         .\Release\FiveChess.obj
+         .\Release\FiveChessDoc.obj
+         .\Release\FiveChessView.obj
+         .\Release\MainFrm.obj
+         .\Release\SetupDlg.obj
+         .\Release\Splash.obj
+         .\Release\StdAfx.obj
+         FiveChess.vcxproj -> F:\c++ code\FiveChess\.\Release\FiveChess.exe
+     1>已完成生成项目“F:\c++ code\FiveChess\FiveChess.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.12
